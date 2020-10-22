@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<h1>Rectificador de media onda con fltro</h1>
+
+<input type="text" placeholder="Vrms" id="vrms" >
+<input type="text" placeholder="N1" id="n1">
+<input type="text" placeholder="N2" id="n2">
+<input type="text" placeholder="Carga RL" id="rl">
+<input type="text" placeholder="Filtro" id="filtro">
+
+
+<button id="calcular">Calcular</button>
+<h2>Primera aproximación</h2>
+<p>V1 = Vrms</p>
+<p>V2 = <span id="v2Display"></span>V</p>
+<p>Vp1 = <span id="vp1Display"></span>V</p>
+<p>Vp2 in = <span id="vp2In"></span>V</p>
+<p>Vp2 out = <span id="vp2Out"></span>V</p>
+<p>Vpp2 in=  <span id="vpp2In"></span>V</p>
+<p>Vpp2 out= <span id="vpp2Out"></span>V</p>
+<p>IL = <span id="ilDisplay"></span>Amp</p>
+<p>Vriz = <span id ="vrDisplay"></span>V</p>
+<p>Vdc = <span id="vdcDisplay"></span>V</p>
+
+<h2>Segunda aproximación</h2>
+<p>Caida = 0.7 </p>
+<p>V1 = Vrms</p>
+<p>V2 = <span id="v2"></span></p>
+<p>Vp2 in = <span id="vp2In2"></span> </p>
+<p>Vp2 out = <span id="vp2Out2"></span> </p>
+<p>Vpp2 in=  <span id="vpp2In2"></span></p>
+<p>Vpp2 out= <span id="vpp2Out2"></span> </p>
+<p>IL = <span id="ilDisplay"></span></p>
+<p>Vriz = <span id ="vrDisplay"></span> </p>
+<p>Vdc = <span id="vdcDisplay2"></span> </p>
+
+<script src="./js/index.js"></script>
+</body>
+</html>

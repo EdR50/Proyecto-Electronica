@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@300;700&display=swap');
+
+* {
+    font-family: 'piazzolla';
+}
+
+.container {
+    display: flex;
+    
+}
+
+
