@@ -167,6 +167,4 @@ for (var i in especiales) {
 if (numeros.indexOf(teclado) == -1 & !teclado_especial) {
     return false;
 }
-
-
 }
