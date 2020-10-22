@@ -1,0 +1,12 @@
+.datos{
+    width: 990px;
+    height: 125px;
+    margin: auto;
+}
+.calculo{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 650px;
+    margin: auto;
+}

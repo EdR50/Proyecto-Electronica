@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="sinfiltro">
+            <div class="img">
+                <img src="" alt="">
+            </div>
+
+            <form class="datos" name="datos">
+                Vrms <input type="text" name="vrms" id="vrms" onkeypress="return solonumeros(event)" onpaste="return false"> Frecuencia <input type="text" id="fre" onkeypress="return solonumeros(event)" onpaste="return false">
+                Caida <input type="text" id="caida" onkeypress="return solonumeros(event)" onpaste="return false"> Resistencia <input type="text" id="vr"  onkeypress="return solonumeros(event)" onpaste="return false"><br><br>
+                N1 <input type="text" id="n1" onkeypress="return solonumeros(event)" onpaste="return false"> N2 <input type="text" id="n2"  onkeypress="return solonumeros(event)" onpaste="return false"><br><br>
+                <button type="button" id="calcular">Calcular</button>
+                
+            </form>
+            <div class="calculo">
+                <div class="primera">
+                    <h2>Primera aproximacion</h2>
+                    <p>Vp1=<span id="vp1"></span></p>
+                    <p>Vpp1=<span id="vpp1"></span></p>
+                    <p>V1=<span id="v1"></span></p>
+                    <p>V2=<span id="v2"></span></p>
+                    <p>Vp2(in)=<span id="vp2i"></span></p>
+                    <p>Vp2(out)=<span id="vp2o"></span></p>
+                    <p>Vpp2(in)=<span id="vpp2i"></span></p>
+                    <p>Vpp2(out)=<span id="vpp2o"></span></p>
+                    <p>Vdc=<span id="vdc"></span></p>
+                </div>
+                <div class="segunda">
+                    <h2>Segunda aproximacion</h2>
+                    <p>Caida=<span id="caida"></span></p>
+                    <p>V1=<span id="v11"></span></p>
+                    <p>V2=<span id="v22"></span></p>
+                    <p>Vp2(in)=<span id="vp2ii"></span></p>
+                    <p>Vp2(out)=<span id="vp2oo"></span></p>
+                    <p>Vpp2(in)=<span id="vpp22i"></span></p>
+                    <p>Vpp2(out)=<span id="vpp22o"></span></p>
+                    <p>VL=<span id="vl2"></span></p>
+                    <p>Vdc=<span id="vdc2"></span></p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./js/prueba.js"></script>
+</body>
+</html>
