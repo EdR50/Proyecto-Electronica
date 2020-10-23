@@ -139,7 +139,7 @@ const vdc2Handler = () => {
 const vlHandler = () => {
     let formula = vp2outHandler() / Math.PI;
     let display = document.getElementById("vl2");
-    display.textContent = formula;
+    display.textContent = formula.toFixed(2);
 
     return formula;
 }
