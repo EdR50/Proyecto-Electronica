@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Sin Filtro</title>
+</head>
+<body>
+
+<h1>Rectificador de media onda sin filtro</h1>
+<section>
+    <div>
+        <div class="img">
+            <img src="" alt="">
+        </div>
+
+        <form class="datos" name="datos">
+
+            <input type="text" id="vrms" placeholder="Vrms">
+            <input type="text" id="fre" placeholder="Frecuencia">
+            <input type="text" id="caida" placeholder="Caída">
+            <input type="text" id="vr" placeholder="Resistencia">
+            <input type="text" id="n1" placeholder="N1">
+            <input type="text" id="n2" placeholder="N2">
+            <button type="button" id="calcular">Calcular</button>
+
+        </form>
+
+
+        <div class="wrapped">
+
+            <div class="firstData bShadow-5">
+                <h2>Primera aproximación</h2>
+                <p>Vp1=<span id="vp1"></span></p>
+                <p>Vpp1=<span id="vpp1"></span></p>
+                <p>V1=<span id="v1"></span></p>
+                <p>V2=<span id="v2"></span></p>
+                <p>Vp2(in)=<span id="vp2i"></span></p>
+                <p>Vp2(out)=<span id="vp2o"></span></p>
+                <p>Vpp2(in)=<span id="vpp2i"></span></p>
+                <p>Vpp2(out)=<span id="vpp2o"></span></p>
+                <p>Vdc=<span id="vdc"></span></p>
+            </div>
+
+            <div class="data bShadow-5">
+                <h2>Segunda aproximación</h2>
+                <p>Caída=<span id="caidaData"></span></p>
+                <p>V1=<span id="v11"></span></p>
+                <p>V2=<span id="v22"></span></p>
+                <p>Vp2(in)=<span id="vp2ii"></span></p>
+                <p>Vp2(out)=<span id="vp2oo"></span></p>
+                <p>Vpp2(in)=<span id="vpp22i"></span></p>
+                <p>Vpp2(out)=<span id="vpp22o"></span></p>
+                <p>VL=<span id="vl2"></span></p>
+                <p>Vdc=<span id="vdc2"></span></p>
+
+            </div>
+        </div>
+    </div>
+</section>
+<script src="./js/prueba.js"></script>
+</body>
+</html>
