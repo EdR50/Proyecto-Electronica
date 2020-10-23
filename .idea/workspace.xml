@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8d91fb3-944b-4055-accb-4943f24336a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/aplicacion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/prueba.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/prueba.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/noFiltro.html" beforeDir="false" afterPath="$PROJECT_DIR$/noFiltro.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +32,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
@@ -46,25 +52,25 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Proyecto_Mantenimiento_Equipo" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.aplicacion.html">
     <configuration name="DebugJS" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="9229">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ProyectoElectronica/index.html" useBuiltInWebServerPort="true">
+    <configuration name="aplicacion.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ProyectoElectronica/aplicacion.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Attach to Node.js/Chrome.DebugJS" />
-      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="JavaScript Debug.aplicacion.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.aplicacion.html" />
       </list>
     </recent_temporary>
   </component>
@@ -78,7 +84,7 @@
       <updated>1603426248060</updated>
       <workItem from="1603426252647" duration="82000" />
       <workItem from="1603426341853" duration="4593000" />
-      <workItem from="1603448207447" duration="6650000" />
+      <workItem from="1603448207447" duration="8523000" />
     </task>
     <servers />
   </component>
@@ -102,10 +108,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="413" y="194" width="1094" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603453424805" />
-    <state x="812" y="176" key="FileChooserDialogImpl" timestamp="1603453382275">
+    <state x="812" y="176" key="FileChooserDialogImpl" timestamp="1603456001959">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="812" y="176" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1603453382275" />
+    <state x="812" y="176" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1603456001959" />
     <state width="1919" height="371" key="GridCell.Tab.0.bottom" timestamp="1603453511496">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -158,17 +164,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="489" y="152" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1603453485649" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/prueba.js</url>
-          <line>102</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="739" y="169" key="git4idea.branch.GitSmartOperationDialog" timestamp="1603456968506">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="739" y="169" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603456968506" />
   </component>
 </project>
