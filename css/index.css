@@ -4,9 +4,50 @@
     font-family: 'piazzolla';
 }
 
-.container {
+.wrapped {
     display: flex;
-    
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 150px 0 0 0;
+}
+
+.firstData {
+    width: 350px;
+    text-align: center;
+    padding: 10px;
 }
 
 
+.data {
+    width: 350px;
+    text-align: center;
+    padding: 10px;
+}
+
+.bShadow-1, .bShadow-1h:hover {
+    box-shadow: rgba(150, 150, 150, 0.1) 0 0 20px 0;
+}
+
+.bShadow-2, .bShadow-2h:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0 20px 60px -10px;
+}
+
+.bShadow-3, .bShadow-3h:hover {
+    box-shadow: rgba(0, 0, 0, 0.09) 0 6px 9px 0;
+}
+
+.bShadow-4, .bShadow-4h:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0 5px 20px 0;
+}
+
+.bShadow-5, .bShadow-5h:hover {
+    box-shadow: rgba(0, 0, 0, 0.12) 0 3px 13px 1px;
+}
+
+.bShadow-6, .bShadow-6h:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0 15px 35px 0, rgba(0, 0, 0, 0.07) 0 3px 10px 0;
+}
+
+.bShadow-7, .bShadow-7h:hover {
+    box-shadow: rgba(57, 70, 78, 0.15) 0 0 1px 0, rgba(57, 70, 78, 0.25) 0 20px 55px -8px;
+}

@@ -27,7 +27,7 @@ const calculandoVoltajeP = () => {
     vrms = parseFloat(document.getElementById("vrms").value);
     let display = document.getElementById("vp1Display");
     let formula = Math.sqrt(2) * vrms;
-    display.textContent = formula;
+    display.textContent = formula.toFixed(2);
     return formula;
 }
 
@@ -54,10 +54,10 @@ const calculandoVP2In = () => {
     let display2 = document.getElementById('vp2In2');
     let displayOut = document.getElementById('vp2Out');
     let displayOut2 = document.getElementById('vp2Out2');
-    display.textContent = vpIn;
-    display2.textContent = vpIn;
-    displayOut.textContent = vpIn;
-    displayOut2.textContent = vpIn;
+    display.textContent = vpIn.toFixed(2);
+    display2.textContent = vpIn.toFixed(2);
+    displayOut.textContent = vpIn.toFixed(2);
+    displayOut2.textContent = vpIn.toFixed(2);
     return vpIn;
 }
 
@@ -67,10 +67,10 @@ const calculandoVpp2 = () => {
     let displayOut = document.getElementById("vpp2Out");
     let display2 = document.getElementById("vpp2In2");
     let displayOut2 = document.getElementById("vpp2Out2");
-    displayOut2.textContent = vpp2
-    display2.textContent = vpp2;
-    display.textContent = vpp2;
-    displayOut.textContent = vpp2;
+    displayOut2.textContent = vpp2.toFixed(2)
+    display2.textContent = vpp2.toFixed(2);
+    display.textContent = vpp2.toFixed(2);
+    displayOut.textContent = vpp2.toFixed(2);
 
     return vpp2;
 }
@@ -80,8 +80,8 @@ const calculandoVdc = () => {
     let formula = (calculandoVP2In()) / Math.PI;
     let display = document.getElementById("vdcDisplay");
     let display2 = document.getElementById("vdcDisplay2");
-    display.textContent = formula;
-    display2.textContent = formula;
+    display.textContent = formula.toFixed(2);
+    display2.textContent = formula.toFixed(2);
     return formula;
 }
 
