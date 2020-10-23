@@ -14,10 +14,10 @@ const calculandoVoltajeDos = () => {
     n2 = parseFloat(document.getElementById("n2").value);
     let display = document.getElementById("v2Display");
     let display2 = document.getElementById("v2");
-    let formula = parseFloat(vrms / (n1 / n2));
+    let formula = vrms / (n1 / n2);
 
-    display.textContent = formula;
-    display2.textContent = formula;
+    display.textContent = formula.toFixed(2);
+    display2.textContent = formula.toFixed(2);
     return formula
 }
 
@@ -35,21 +35,27 @@ const calculandoIL = () => {
 
     cargaRl = parseFloat(document.getElementById("rl").value);
     let display = document.getElementById("ilDisplay");
+    let display2 = document.getElementById("ilDisplay2");
     let formula = calculandoVoltajeDos() / cargaRl;
-    return display.textContent = formula;
+    display.textContent = formula.toFixed(2);
+    display2.textContent = formula.toFixed(2);
+    return formula;
 }
 
 const calculandoVoltajeR = () => {
 
     filtro = document.getElementById('filtro').value;
     let display = document.getElementById("vrDisplay");
-    let formula = parseFloat(calculandoIL() / frecuencia * filtro);
-    display.textContent = formula;
+    let display2 = document.getElementById("vrDisplay2");
+    let formula = calculandoIL() / frecuencia * filtro;
+    let formula2 = (calculandoIL() / frecuencia * filtro) + 0.15;
+    display.textContent = formula.toFixed(2);
+    display2.textContent = formula2.toFixed(2);
     return formula;
 }
 
 const calculandoVP2In = () => {
-    let vpIn = parseFloat(calculandoVoltajeDos() / 0.707);
+    let vpIn = calculandoVoltajeDos() / 0.707;
     let display = document.getElementById('vp2In');
     let display2 = document.getElementById('vp2In2');
     let displayOut = document.getElementById('vp2Out');
